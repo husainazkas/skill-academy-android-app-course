@@ -9,6 +9,25 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MySkillAcademy" />
+        android:theme="@style/Theme.MySkillAcademy">
+        <activity
+            android:name=".presenter.activities.CustomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presenter.activities.FragmentDemoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presenter.activities.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".presenter.activities.HomeActivity"
+            android:exported="true" />
+    </application>
 
 </manifest>

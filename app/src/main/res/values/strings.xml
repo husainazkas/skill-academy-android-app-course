@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Skill Academy</string>
+    <string name="btn_go_to_home">Go to Home</string>
+    <string name="btn_go_to_fragment_demo">Go to Fragment Demo</string>
+    <string name="btn_open_custom_activity_fragment">Open Custom Activity with Fragment</string>
+    <string name="btn_show_fragment">Show Fragment</string>
+    <string name="tv_basic_fragment">Ini basic fragment</string>
+    <string name="tv_embedded_fragment">Ini embedded fragment</string>
 </resources>
